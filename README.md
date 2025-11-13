@@ -96,13 +96,13 @@ Respuesta:
 
 ## Endpoints del CRUD (protegidos con JWT)
 
-  Método   Endpoint                   Descripción
-  -------- -------------------------- ---------------------------
-  GET      `/api/v1/productos`        Lista todos los productos
-  GET      `/api/v1/productos/{id}`   Obtiene producto por ID
-  POST     `/api/v1/productos`        Crea un nuevo producto
-  PUT      `/api/v1/productos/{id}`   Actualiza un producto
-  DELETE   `/api/v1/productos/{id}`   Elimina un producto
+| Método | Endpoint                 | Descripción               |
+|--------|---------------------------|----------------------------|
+| GET    | `/api/v1/productos`      | Lista todos los productos |
+| GET    | `/api/v1/productos/{id}` | Obtiene producto por ID   |
+| POST   | `/api/v1/productos`      | Crea un nuevo producto    |
+| PUT    | `/api/v1/productos/{id}` | Actualiza un producto     |
+| DELETE | `/api/v1/productos/{id}` | Elimina un producto       |
 
 ---
 
