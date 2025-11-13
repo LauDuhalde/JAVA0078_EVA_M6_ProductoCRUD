@@ -1,0 +1,41 @@
+Pedir token:
+POST
+http://localhost:8081/auth/login
+{
+    "username": "lduhalde",
+    "password": "123456"
+}
+(Usar credenciales creadas mediante registro)
+
+Listar productos:
+GET
+http://localhost:8081/api/v1/productos
+
+Registrar nuevo producto:
+POST
+http://localhost:8081/api/v1/productos
+{
+  "nombre": "Teclado Mecánico Logitech G413",
+  "descripcion": "Switches Romer-G, retroiluminado",
+  "precio": 84990,
+  "stock": 25
+}
+
+Ver detalle de un producto:
+GET
+http://localhost:8080/api/v1/productos/1
+
+Editar un producto:
+PUT
+http://localhost:8080/api/v1/productos/6
+{
+  "nombre": "Teclado Mecánico Logitech G413 Carbon",
+  "descripcion": "Switches Romer-G, versión actualizada",
+  "precio": 30000,
+  "stock": 30
+}
+
+Eliminar un producto:
+DELETE
+http://localhost:8080/api/v1/productos/6
+
